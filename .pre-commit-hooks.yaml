@@ -1,0 +1,8 @@
+- id: erb-lint
+  name: Check ERB files with erb_lint
+  entry: erb_lint
+  language: ruby
+  files: \.erb$
+  types: ["ruby"]
+  pass_filenames: true
+  args: ["--autocorrect"]

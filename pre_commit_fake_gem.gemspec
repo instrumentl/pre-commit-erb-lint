@@ -6,8 +6,8 @@ Gem::Specification.new do |s|
   s.description = "A fake gem for pre-commit-erb-lint"
 
   s.add_dependency "erb_lint", "0.9.0"
-  s.add_dependency "rubocop", ">= 1.76.1"
-  s.add_dependency "standard", ">= 1.45.0"
+  s.add_dependency "rubocop", ">= 1.75.5"
+  s.add_dependency "standard", ">= 1.50.0"
 
   s.required_ruby_version = ">= 3.0"
 end

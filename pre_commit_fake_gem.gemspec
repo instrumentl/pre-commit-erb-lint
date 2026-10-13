@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.add_dependency "erb_lint", "0.9.0"
   s.add_dependency "rubocop", ">= 1.75.5"
   s.add_dependency "standard", ">= 1.50.0"
+  s.add_dependency "rubocop-sorbet", ">= 0.17.1"
 
   s.required_ruby_version = ">= 3.0"
 end
